@@ -189,7 +189,7 @@ export default {
       this.$ajax({
         methods: 'get',
         // baseURL: '/article',
-        // url: random',
+        // url: 'random',
         url: 'https://interface.meiriyiwen.com/article/random',
         params: {
           dev: 1
