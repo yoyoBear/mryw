@@ -3,7 +3,6 @@
    :style="{'background-color': Ibg}"
    :class="{ marL: leftmenu,Inight: night }"
    v-on="{click:hideMenu,touchstart:ts,touchmove:tm,touchend:te}">
-<!--     <img src="./assets/logo.png"> -->
     <header id="header">
       <img src="./assets/menu.png" @click.stop="leftMenus">
       <img src="./assets/portmenu.png"  @click.stop="rightMenus">
